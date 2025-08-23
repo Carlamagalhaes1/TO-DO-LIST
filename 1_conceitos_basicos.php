@@ -66,7 +66,22 @@ $c = "12";
 
 echo "Valor é " . ($c == $a ? "verdadeiro " :"falso") . "<br>";
 echo "o indentico é  " . ($a === $b ? "vdd" : "falso") . "<br>";
-echo "o valor é diferente " . ($a != $b ? "vdd" : "falso") . "<br>"
+echo "o valor é diferente " . ($a != $b ? "vdd" : "falso") . "<br>";
+
+// operadores logicos (tabela vdd)
+// && -> and - se as duas fores verdaderias,
+// || -> or - se uma for verdadeira
+//  ! -> not - inverte
+
+$idade1 = 20;
+$temCarteira = true;
+
+echo "deve tirar a carteira? " . (($idade >= 18  && !$temCarteira) ? "sim" : "não <br>");
+echo " ele tem carteira? " . (($idade >= 18 or $temCarteira ) ? "sim" : "não <br>");
+
+
+
+
 ?>
 
 
