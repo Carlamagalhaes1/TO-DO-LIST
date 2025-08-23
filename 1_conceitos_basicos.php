@@ -36,9 +36,37 @@ echo "minha altura é $altura <br><br>";
 $verdadeiro = true;
 $falso = false;
 
-echo "Esse é meu verdadeiro ($verdadeiro), e esse é meu falso ($falso) <br><br>"
+echo "Esse é meu verdadeiro ($verdadeiro), e esse é meu falso ($falso) <br><br>";
 
+//arrays 
 
+$meuArray = [ "carla", "saulo", "davi" ];
+
+echo"O primeiro nome é =>  $meuArray[0]<br><br>";
+echo"O segundo nome é  $meuArray[1]<br>";
+
+$meuArray[] = "stila";
+$meuArray[] = "carlos";
+echo "o elemento que eu add foi $meuArray[3]<br>";
+echo "o segundo elemento que eu add foi $meuArray[4]<br>";
+
+//operadores
+
+echo "Soma " . (10 + 5) . "<br>";
+
+$a = 10;
+$b = 10;
+
+echo "A subtração é:" . ($a - $b) . "<br>";
+echo "A divisão é:" . ($a / $b) . "<br>";
+echo "A multiplicação é:" . ($a * $b) ." <br>";
+
+// ==, ===, !=
+$c = "12";
+
+echo "Valor é " . ($c == $a ? "verdadeiro " :"falso") . "<br>";
+echo "o indentico é  " . ($a === $b ? "vdd" : "falso") . "<br>";
+echo "o valor é diferente " . ($a != $b ? "vdd" : "falso") . "<br>"
 ?>
 
 
