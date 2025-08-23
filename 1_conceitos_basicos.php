@@ -18,7 +18,26 @@ $irmãos = "Saulo, Davi";
 $pais = ",Carlos e sirlândia";
 
 $familia = $irmãos . " " . $pais;
-echo "Minha familia são $familia"
+echo "Minha familia são $familia <br> ";
+
+
+$idade = 19;
+$somaIdade  = $idade + 5;
+
+echo  "minha idade é $somaIdade!<br><br>";
+
+//float - nuumetos quebrados
+$altura = 1.72;
+
+echo "minha altura é $altura <br><br>";
+
+//booleano true or false
+
+$verdadeiro = true;
+$falso = false;
+
+echo "Esse é meu verdadeiro ($verdadeiro), e esse é meu falso ($falso) <br><br>"
+
 
 ?>
 
