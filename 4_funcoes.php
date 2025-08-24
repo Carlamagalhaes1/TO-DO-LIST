@@ -21,5 +21,16 @@ function teste($a, $b) : mixed{
 
 $resultado = teste(a:4, b:5);
 
-echo "Meu resultado $resultado"
+echo "Meu resultado $resultado <br>";
+
+//funções da lingugem
+$teste2 = "carla";
+
+$tamanho = strlen(string: $teste2);
+
+echo "o tamanho do nomme $tamanho <br>";
+
+$cores = ['carla', 'bibi', 'saulo'];
+
+print_r($cores)
 ?>
